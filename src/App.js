@@ -80,11 +80,11 @@ function App() {
       console.log(error);
     }
   };
-
-  /*useEffect(() => {
+  //corrected
+  useEffect(() => {
     checkWalletIsConnected();
     // eslint-disable-next-line
-  }, [currentAccount]);*/
+  }, [currentAccount]);
   return (
     <Router>
       <div className="App">
