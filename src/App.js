@@ -81,10 +81,10 @@ function App() {
     }
   };
 
-  useEffect(() => {
+  /*useEffect(() => {
     checkWalletIsConnected();
     // eslint-disable-next-line
-  }, [currentAccount]);
+  }, [currentAccount]);*/
   return (
     <Router>
       <div className="App">
